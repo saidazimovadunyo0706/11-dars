@@ -1,121 +1,41 @@
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f3fb;
-}
-.container{
-    padding: 0 90px;
-}
-
-.who-we-are {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #dce3f3;
-}
-.top{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.title {
-  color: red;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  max-width: 700px;
-  margin: 0 auto 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
   color: #333;
-  line-height: 1.5;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  background: white;
+header {
+  background-color: #222;
+  color: white;
   padding: 20px;
-  width: 280px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.card img {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
-  filter: invert(25%) sepia(85%) saturate(3900%) hue-rotate(330deg);
-}
-
-.card h3 {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.card p {
-  font-size: 14px;
-  color: #666;
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f3fb;
-}
-
-.who-we-are {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #dce3f3;
-}
-
-.title {
-  color: red;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  max-width: 700px;
-  margin: 0 auto 40px;
-  color: #333;
-  line-height: 1.5;
-}
-
-.cards {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  width: 280px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url("images/banner.jpg") center/cover no-repeat;
+  padding: 100px 20px;
   text-align: center;
+  color: white;
 }
 
-.card img {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
-  filter: invert(25%) sepia(85%) saturate(3900%) hue-rotate(330deg);
+.products {
+  padding: 40px 20px;
 }
 
-.card h3 {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.card p {
-  font-size: 14px;
-  color: #666;
+.product {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
 }
